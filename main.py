@@ -12,8 +12,8 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Replace with your values
-api_id = '12380656'
-api_hash = 'd927c13beaaf5110f25c505b7c071273'
+api_id = '24240923'
+api_hash = '6da1cd5810a1204cc64025d9b13064d3'
 session_string = 'BQG9pNoAN3M1B8s2NlVEkBw-U52Ko2i5J5uy7vmBNB_-1s046mnhEdiZPy-mkp27xwyjO68FWGa-ofoQLu5c3_y2y_QU9jQKkEGvOHpHDBkpqjELzGyaoIxT47SH_FlQtNzcWBDI2KW6UIceH_FhoO8VVXnbPwRqMmAsMN_gLF0VUG-uAVG2iJZXkXMHMRqYdyGwVnAndIyLRvTOqTXBRIGycEWW5gubQ24rKsXaMfia1SX7Rw0Iu7vHPsKbSLb3ExlUrOcE3L0-VMYtvLXiOF33P9cR7oIMWYwqeNojIptrIrXauZWBEfwV7DJGS2jHROqJUnNF276XckbozAayEmfElSXphwAAAAG7sn-6AA'
 
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
